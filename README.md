@@ -11,3 +11,17 @@
   ```
   Instalación desde el Teléfono
   ```
+
+## Mi Primera React Native App
+  * Creación
+  ```
+  $ create-react-native-app MyAndroidApp
+  ```
+  * Acceso a MyAndroidApp
+  ```
+  $ cd MyAndroidApp
+  ```
+  * Iniciamos Servidor de Desarrollo
+  ```
+  $ npm start
+  ```
