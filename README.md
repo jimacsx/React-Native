@@ -25,3 +25,5 @@
   ```
   $ npm start
   ```
+  * Leemos código QR en Expo App
+  
