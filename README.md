@@ -66,7 +66,8 @@
 ## Desarrollo de una App Nativa con Js y React
 <details>
   <summary>Instalación de Dependencias</summary>
-  <p>* Accedemos al apartado "Buildin projects with Native Code" dentro de la documentación de React Native (https://facebook.github.io/react-native/docs/getting-started.html#content).</p>
-  <br>
-  <p>* Dentro del enlace encontraremos la configuración requerida para cada SO.</p>
+  <ul>
+    <li>Accedemos al apartado "Buildin projects with Native Code" dentro de la documentación de React Native (https://facebook.github.io/react-native/docs/getting-started.html#content).</li>
+    <li>Dentro del enlace encontraremos la configuración requerida para cada SO.</li>
+  </ul>
 </details>
