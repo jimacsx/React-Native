@@ -83,7 +83,7 @@
 <details>
   <summary><b>Instalación de React Native CLI</b></summary>
   <br>
-  ```
-  $ npm install -g react-native-cli
-  ```
+  <ul>
+    <li>$ npm install -g react-native-cli</li>
+  </ul>
 </details>
