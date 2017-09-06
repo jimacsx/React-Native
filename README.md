@@ -69,14 +69,21 @@
   <br>
   <ul>
     <li>Accedemos al apartado "Buildin projects with Native Code" dentro de la documentación de React Native (https://facebook.github.io/react-native/docs/getting-started.html#content).</li>
-    <li>Dentro del enlace encontraremos la configuración requerida para cada SO.</li>
+    <li>Dentro del enlace encontraremos la configuración requerida para cada SO.
+      <ul>
+        <li>macOS   -> iOS</li>
+        <li>macOS   -> Android</li>
+        <li>linux   -> Android</li>
+        <li>windows -> Android</li>
+      </ul>
+    </li>
   </ul>
 </details>
+<br>
 <details>
-  <summary><b>Instalación de Dependencias</b></summary>
+  <summary><b>Instalación de React Native CLI</b></summary>
   <br>
-  <ul>
-    <li>Accedemos al apartado "Buildin projects with Native Code" dentro de la documentación de React Native (https://facebook.github.io/react-native/docs/getting-started.html#content).</li>
-    <li>Dentro del enlace encontraremos la configuración requerida para cada SO.</li>
-  </ul>
+  ```
+  $ npm install -g react-native-cli
+  ```
 </details>
