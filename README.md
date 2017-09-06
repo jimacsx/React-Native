@@ -60,5 +60,5 @@
   });
   ```
   ```
-  ![picture alt](MyFirstApp/public/img/MyFirstApp.jpeg "My First App")
+  ![picture alt](https://github.com/jimacsx/React-Native/blob/master/MyFirstApp/public/img/MyFirstApp.jpeg "My First App")
   ```
