@@ -86,3 +86,11 @@
     <li>$ npm install -g react-native-cli</li>
   </ul>
 </details>
+<details>
+  <summary><b>Creamos una nueva Aplicación</b></summary>
+  <br>
+  <ul>
+    <li>$ react-native init MyNativeApp</li>
+    <li>$ cd MyNativeApp</li>
+  </ul>
+</details>
