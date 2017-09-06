@@ -99,10 +99,13 @@
 <details>
   <summary><b>Preparamos el dispositivo Android / iOS para correr nuestra Aplicación</b></summary>
   <br>
-  <ul>Hay dos maneras de correr nuestra App:
-    <li>Utilizando un dispositivo virtual.</li>
-    <li>Utilizando un dispositivo físico.</li>
+  <ul>
+    <li>Hay dos maneras de correr nuestra App:
+      <ul>
+        <li>Utilizando un dispositivo virtual.</li>
+        <li>Utilizando un dispositivo físico.</li>
+      </ul>
+    </li>
+    <li>Para lo anterior checamos documentacion (https://facebook.github.io/react-native/docs/getting-started.html) en el apartado "Preparing the Android device".</li>
   </ul>
-  <br>
-  <p>Para lo anterior checamos documentacion (https://facebook.github.io/react-native/docs/getting-started.html) en el apartado "Preparing the Android device"</p>
 </details>
