@@ -9,21 +9,22 @@
   ```
   * Expo App (Play Store || App Store)
   ```
-  Instalación desde el Teléfono
+  Instalación desde el móvil
   ```
 
 ## Mi Primera React Native App
   * Creación
   ```
-  $ create-react-native-app MyAndroidApp
+  $ create-react-native-app MyFirstApp
   ```
-  * Acceso a MyAndroidApp
+  * Acceso a MyFirstApp
   ```
-  $ cd MyAndroidApp
+  $ cd MyFirstApp
   ```
   * Iniciamos Servidor de Desarrollo
   ```
   $ npm start
   ```
-  * Leemos código QR en Expo App
-  
+  * Escaneamos código QR en Expo App
+  * Al Escanear QR observaremos en nuestro móvil los Textos que se muestran en el archivo MyApp/App.js
+  * Modificamos MyApp/App.js para hacer nuestro primer "Hola Mundo".
