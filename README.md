@@ -58,7 +58,7 @@
     }
   });
   ```
-  <br>
+  * Mi Primera App en Expo App
   <img height="320" src="https://github.com/jimacsx/React-Native/blob/master/MyFirstApp/public/img/MyFirstApp.jpeg"/>
   <br>
 
