@@ -59,4 +59,6 @@
     }
   });
   ```
-  ![Screenshot](https://github.com/jimacsx/React-Native/blob/master/MyFirstApp/public/img/MyFirstApp.jpeg)
+  <br>
+  <img height="200" src="https://github.com/jimacsx/React-Native/blob/master/MyFirstApp/public/img/MyFirstApp.jpeg"/>
+  <br>
