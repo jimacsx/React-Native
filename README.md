@@ -1,18 +1,17 @@
-## Instalación
-  * Node
-  ```
-  link: https://nodejs.org/en/download/
-  ```
-  * Create React Native App
-  ```
-  $ npm install -g create-react-native-app
-  ```
-  * Expo App (Play Store || App Store)
-  ```
-  Instalación desde el móvil
-  ```
-
 ## Mi Primera React Native App
+  * Instalación
+    * Node
+    ```
+    link: https://nodejs.org/en/download/
+    ```
+    * Create React Native App
+    ```
+    $ npm install -g create-react-native-app
+    ```
+    * Expo App (Play Store || App Store)
+    ```
+    Instalación desde el móvil
+    ```
   * Creación
   ```
   $ create-react-native-app MyFirstApp
@@ -63,7 +62,7 @@
   <img height="320" src="https://github.com/jimacsx/React-Native/blob/master/MyFirstApp/public/img/MyFirstApp.jpeg"/>
   <br>
 
-## Desarrollo de una App Nativa con Js y React
+## Desarrollo de una App Nativa (Android / iOS) con Js y React
 <details>
   <summary><b>Instalación de Dependencias</b></summary>
   <br>
