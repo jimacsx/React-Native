@@ -84,7 +84,7 @@
   <br>
   <ul>
     <li>$ npm install -g react-native-cli</li>
-    <li>Debemos exportar react-native a nuestras variables de entorno o path (mac/linux.)</li>
+    <li>Debemos exportar react-native a nuestras variables de entorno o path (mac/linux) para no tener problemas al correr el comando.</li>
     <li>Para exportar react-native a $PATH en linux/unix hacemos:
       <ul>
         <li>Agregamos en /etc/enviroment la ruta en donde se instaló react-native, algo como: PATH=$PATH:reactNativePath</li>
