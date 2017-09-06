@@ -28,3 +28,26 @@
   * Escaneamos código QR en Expo App
   * Al Escanear QR observaremos en nuestro móvil los Textos que se muestran en el archivo MyApp/App.js
   * Modificamos MyApp/App.js para hacer nuestro primer "Hola Mundo".
+  ```App.js
+  import React from 'react';
+  import { StyleSheet, Text, View } from 'react-native';
+
+  export default class App extends React.Component {
+    render() {
+      return (
+        <View style={styles.container}>
+          <Text>Hola Mundo!</Text>
+        </View>
+      );
+    }
+  }
+
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      backgroundColor: '#fff',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+  });
+  ```
