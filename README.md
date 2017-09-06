@@ -86,6 +86,7 @@
     <li>$ npm install -g react-native-cli</li>
   </ul>
 </details>
+<br>
 <details>
   <summary><b>Creamos una nueva Aplicación</b></summary>
   <br>
@@ -93,4 +94,15 @@
     <li>$ react-native init MyNativeApp</li>
     <li>$ cd MyNativeApp</li>
   </ul>
+</details>
+<br>
+<details>
+  <summary><b>Preparamos el dispositivo Android / iOS para correr nuestra Aplicación</b></summary>
+  <br>
+  <ul>Hay dos maneras de correr nuestra App:
+    <li>Utilizando un dispositivo virtual.</li>
+    <li>Utilizando un dispositivo físico.</li>
+  </ul>
+  <br>
+  <p>Para lo anterior checamos documentacion (https://facebook.github.io/react-native/docs/getting-started.html) en el apartado "Preparing the Android device"</p>
 </details>
