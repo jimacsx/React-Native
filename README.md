@@ -130,3 +130,24 @@
     <li>Para lo anterior checamos documentacion (https://facebook.github.io/react-native/docs/getting-started.html) en el apartado "Preparing the Android device".</li>
   </ul>
 </details>
+<br>
+<details>
+  <summary><b>Corremos nuestra App</b></summary>
+  <br>
+  <ul>
+    <li>Para correr la App utilizamos los siguientes comandos:
+      <ul>
+        <li>Para iOS
+          <ul>
+            <li>$ react-native run-ios</li>
+          </ul>
+        </li>
+        <li>Para Android
+          <ul>
+            <li>$ react-native run-android</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</details>
