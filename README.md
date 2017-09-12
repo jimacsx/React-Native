@@ -182,6 +182,56 @@
         <li>{"plugins": [["import", { "libraryName": "antd-mobile" }]]}</li>
       </ul>
     </li>
+    <li>En la <a href='https://mobile.ant.design/docs/react/introduce'>documentación</a> de Ant Mobile, sección <b>Componentes</b> podemos echar un vistazo de cómo se hace uso de estos.</li>
   </ul>
 </details>
 <br>
+
+## Ejemplo de código utilizando Ant Mobile
+* Modificamos <i>index.android.js</i> para hacer uso de <b>ant mobile</b>
+```
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View,
+  Image
+} from 'react-native';
+import { Button } from 'antd-mobile'; //import Ant Mobile
+
+export default class MyNativeApp extends Component {
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.welcome}>Hola Mundo!</Text>
+        <Image
+          source={{uri: 'http://frostney.github.io/talks/react-native/slides/images/react-logo.png'}}
+          style={{width: 100, height:100}}
+        />
+        <Button className="btn" type="primary">Inicia con React Native</Button>
+      </View>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#000',
+  },
+  welcome: {
+    fontSize: 18,
+    textAlign: 'center',
+    margin: 10,
+    color: '#fff',
+  }
+});
+
+AppRegistry.registerComponent('MyNativeApp', () => MyNativeApp);
+```
+
+* Esto es lo que observaremos al recargar nuestro Dispositivo Virtual (dos veces presionando tecla 'R'):
+<img height="420" src="https://github.com/jimacsx/React-Native/blob/2820415e455ddbe34098b63b38049ca201a2a8b5/MyNativeApp/images/button_ant_mobile.png"/>
