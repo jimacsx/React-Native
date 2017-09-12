@@ -234,4 +234,4 @@ AppRegistry.registerComponent('MyNativeApp', () => MyNativeApp);
 ```
 
 * Esto es lo que observaremos al recargar nuestro Dispositivo Virtual (dos veces presionando tecla 'R'):
-<img height="420" src="https://github.com/jimacsx/React-Native/blob/2820415e455ddbe34098b63b38049ca201a2a8b5/MyNativeApp/images/button_ant_mobile.png"/>
+<img height="420" src="https://github.com/jimacsx/React-Native/blob/master/MyNativeApp/images/button_ant_mobile.png"/>
