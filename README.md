@@ -160,6 +160,7 @@
   </ul>
 </details>
 <br>
+
 ## Agregamos Ant Mobile para el uso y creación de Componentes
 <details>
   <summary><b>Instalación de Dependencias</b></summary>
@@ -176,9 +177,7 @@
   <br>
   <ul>
     <li>Esta configuración es para evitar conflictos al querer hacer uso de <b><a href='https://mobile.ant.design'>Ant Mobile</a></b></li>
+    <li>Agregamos estas linea en .babelrc : {"plugins": [["import", { "libraryName": "antd-mobile" }]]}</li>
   </ul>
-  ´´´
-  {"plugins": [["import", { "libraryName": "antd-mobile" }]]}
-  ´´´
 </details>
 <br>
