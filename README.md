@@ -154,6 +154,7 @@
     </li>
     <li>Al correr al app en Android obtendremos lo siguiente:
       <br>
+      <br>
       <img height="420" src="https://github.com/jimacsx/React-Native/blob/2820415e455ddbe34098b63b38049ca201a2a8b5/MyNativeApp/images/hola_mundo_android.png"/>
     </li>
   </ul>
