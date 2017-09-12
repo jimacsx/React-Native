@@ -132,9 +132,12 @@
 </details>
 <br>
 <details>
-  <summary><b>Corremos nuestra App</b></summary>
+  <summary><b>Corremos nuestra App Utilizando un Dispositivo Virtual</b></summary>
   <br>
   <ul>
+    <li>En esta ocasión sólo trabajaremos en Android. Así que las siguientes instrucciones estaran basadas para Android con Android Studio.</li>
+    <li>Editamos el archivo 'index.android.js' para obtener nuestro primer 'Hola Mundo!'</li>
+    <li>Antes de correr la aplicación debemos tener encendido nuestro Dispositivo Virtual con Android Studio.
     <li>Para correr la App utilizamos los siguientes comandos:
       <ul>
         <li>Para iOS
@@ -148,6 +151,10 @@
           </ul>
         </li>
       </ul>
+    </li>
+    <li>Al correr al app en Android obtendremos lo siguiente:
+      <br>
+      <img height="320" src="https://github.com/jimacsx/React-Native/blob/2820415e455ddbe34098b63b38049ca201a2a8b5/MyNativeApp/images/hola_mundo_android.png"/>
     </li>
   </ul>
 </details>
