@@ -12,6 +12,7 @@ import {
   View,
   Image
 } from 'react-native';
+import { Button } from 'antd-mobile'; //import Ant Mobile
 
 export default class MyNativeApp extends Component {
   render() {
@@ -22,6 +23,7 @@ export default class MyNativeApp extends Component {
           source={{uri: 'http://frostney.github.io/talks/react-native/slides/images/react-logo.png'}}
           style={{width: 100, height:100}}
         />
+        <Button className="btn" type="primary">Inicia con React Native</Button>
       </View>
     );
   }
