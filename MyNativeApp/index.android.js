@@ -9,23 +9,19 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image
 } from 'react-native';
 
 export default class MyNativeApp extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        <Text style={styles.welcome}>Hola Mundo!</Text>
+        <Image
+          source={{uri: 'http://frostney.github.io/talks/react-native/slides/images/react-logo.png'}}
+          style={{width: 100, height:100}}
+        />
       </View>
     );
   }
@@ -36,18 +32,14 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#000',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 18,
     textAlign: 'center',
     margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+    color: '#fff',
+  }
 });
 
 AppRegistry.registerComponent('MyNativeApp', () => MyNativeApp);
