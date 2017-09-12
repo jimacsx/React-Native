@@ -209,7 +209,7 @@ export default class MyNativeApp extends Component {
           source={{uri: 'http://frostney.github.io/talks/react-native/slides/images/react-logo.png'}}
           style={{width: 100, height:100}}
         />
-        <Button className="btn" type="primary">Inicia con React Native</Button>
+        <Button className="btn" type="primary">Button Ant Mobile </Button>
       </View>
     );
   }
