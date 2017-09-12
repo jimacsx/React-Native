@@ -176,8 +176,8 @@
   <summary><b>Configuración .babelrc</b></summary>
   <br>
   <ul>
-    <li>Esta configuración es para evitar conflictos al querer hacer uso de <b><a href='https://mobile.ant.design'>Ant Mobile</a></b></li>
-    <li>Agregamos estas linea en .babelrc : </li>
+    <li>Esta configuración es para evitar conflictos al querer hacer uso de <b><a href='https://mobile.ant.design' target='_blank'>Ant Mobile</a></b></li>
+    <li>Agregamos esta linea en .babelrc : </li>
     <li>{"plugins": [["import", { "libraryName": "antd-mobile" }]]}</li>
   </ul>
 </details>
