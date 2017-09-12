@@ -159,3 +159,26 @@
     </li>
   </ul>
 </details>
+<br>
+## Agregamos Ant Mobile para el uso y creación de Componentes
+<details>
+  <summary><b>Instalación de Dependencias</b></summary>
+  <br>
+  <ul>
+    <li>Nota: todos los comandos se deben correr dentro de la carpeta MyNativeApp, esta para que las dependencias a instalar sean agregadas al archivo package.json</li>
+    <li> $ npm install antd-mobile --save </li>
+    <li> $ npm install babel-plugin-import --save-dev </li>
+  </ul>
+</details>
+<br>
+<details>
+  <summary><b>Configuración .babelrc</b></summary>
+  <br>
+  <ul>
+    <li>Esta configuración es para evitar conflictos al querer hacer uso de <b><a href='https://mobile.ant.design'>Ant Mobile</a></b></li>
+  </ul>
+  ´´´
+  {"plugins": [["import", { "libraryName": "antd-mobile" }]]}
+  ´´´
+</details>
+<br>
